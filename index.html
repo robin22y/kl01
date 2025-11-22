@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ProfitPerItem - Stop Buying Stock That Loses Money</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-50">
+
+    
+
+    <!-- Hero Section -->
+
+    <div class="min-h-screen flex items-center justify-center px-4 py-12">
+
+        <div class="max-w-3xl mx-auto text-center">
+
+            
+
+            <!-- Problem Statement -->
+
+            <div class="mb-8">
+
+                <p class="text-gray-600 text-lg mb-2">For UK resellers who are tired of guessing</p>
+
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+
+                    Know Which Products Actually Make You Money
+
+                </h1>
+
+            </div>
+
+
+
+            <!-- Story Hook -->
+
+            <div class="bg-white border-l-4 border-red-500 p-6 mb-8 text-left max-w-2xl mx-auto">
+
+                <p class="text-gray-700 text-lg leading-relaxed">
+
+                    I lost money reselling because I couldn't see item-level profits in QuickBooks. I'd buy Nike trainers for £8, sell for £12, and after fees and postage I'd made 50p. Meanwhile vintage shirts were making me £9 each, but I didn't know it.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- Key Benefit -->
+
+            <div class="mb-10">
+
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 mb-4">
+
+                    Track what you pay. Track what you sell for.<br/>
+
+                    <span class="text-blue-600">See which items are wasting your time.</span>
+
+                </h2>
+
+            </div>
+
+
+
+            <!-- Three Quick Points -->
+
+            <div class="grid md:grid-cols-3 gap-6 mb-10 text-left">
+
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+
+                    <div class="text-3xl mb-3">📊</div>
+
+                    <h3 class="font-semibold text-gray-900 mb-2">Profit Per Item</h3>
+
+                    <p class="text-gray-600">Not bulk deposits. Actual profit on each thing you sell.</p>
+
+                </div>
+
+                
+
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+
+                    <div class="text-3xl mb-3">💷</div>
+
+                    <h3 class="font-semibold text-gray-900 mb-2">Pricing Calculator</h3>
+
+                    <p class="text-gray-600">Know if something's profitable before you buy it.</p>
+
+                </div>
+
+                
+
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+
+                    <div class="text-3xl mb-3">🎯</div>
+
+                    <h3 class="font-semibold text-gray-900 mb-2">Category Analysis</h3>
+
+                    <p class="text-gray-600">See which products work. Stop buying the ones that don't.</p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CTA -->
+
+            <div class="bg-gradient-to-r from-blue-600 to-blue-700 p-8 rounded-xl shadow-lg mb-8">
+
+                <p class="text-white text-xl font-semibold mb-4">
+
+                    Launching Soon • £8.99/month
+
+                </p>
+
+                <button 
+
+                    onclick="window.location.href='#interest'" 
+
+                    class="bg-white text-blue-600 font-bold py-4 px-8 rounded-lg text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
+
+                    Get Early Access
+
+                </button>
+
+                <p class="text-blue-100 text-sm mt-4">
+
+                    Join 50 sellers testing the beta
+
+                </p>
+
+            </div>
+
+
+
+            <!-- Anti-pitch -->
+
+            <div class="bg-gray-100 p-6 rounded-lg max-w-2xl mx-auto mb-8">
+
+                <p class="text-gray-700 font-medium mb-3">This isn't for everyone:</p>
+
+                <p class="text-gray-600 text-sm leading-relaxed">
+
+                    Manual entry. No automation. No gamification. Built for sellers who treat reselling like a business and will put in 5 minutes a day to stop losing money on bad stock. If you need hand-holding, this isn't it.
+
+                </p>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Interest Form Section -->
+
+    <div id="interest" class="bg-white py-16 px-4">
+
+        <div class="max-w-xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-gray-900 mb-4 text-center">Get Early Access</h2>
+
+            <p class="text-gray-600 mb-8 text-center">Be one of the first 50 sellers to test ProfitPerItem. No payment required yet.</p>
+
+            
+
+            <form class="space-y-4" name="early-access" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
+                <!-- Hidden honeypot field for spam protection -->
+                <input type="hidden" name="form-name" value="early-access" />
+                <p style="display: none;">
+                    <label>
+                        Don't fill this out if you're human: <input name="bot-field" />
+                    </label>
+                </p>
+
+                <div>
+
+                    <input 
+
+                        type="email" 
+
+                        name="email" 
+
+                        placeholder="Your email" 
+
+                        required
+
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+
+                    >
+
+                </div>
+
+                
+
+                <div>
+
+                    <select 
+
+                        name="platform" 
+
+                        required
+
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-700"
+
+                    >
+
+                        <option value="">Where do you sell most?</option>
+
+                        <option value="ebay">eBay</option>
+
+                        <option value="vinted">Vinted</option>
+
+                        <option value="depop">Depop</option>
+
+                        <option value="facebook">Facebook Marketplace</option>
+
+                        <option value="multiple">Multiple platforms</option>
+
+                        <option value="other">Other</option>
+
+                    </select>
+
+                </div>
+
+                
+
+                <div>
+
+                    <select 
+
+                        name="volume" 
+
+                        required
+
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-700"
+
+                    >
+
+                        <option value="">How many items do you sell monthly?</option>
+
+                        <option value="under20">Under 20</option>
+
+                        <option value="20-50">20-50</option>
+
+                        <option value="50-100">50-100</option>
+
+                        <option value="100plus">100+</option>
+
+                    </select>
+
+                </div>
+
+
+
+                <div>
+
+                    <textarea 
+
+                        name="problem" 
+
+                        placeholder="What's your biggest profit tracking problem? (optional)"
+
+                        rows="3"
+
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+
+                    ></textarea>
+
+                </div>
+
+                
+
+                <button 
+
+                    type="submit"
+
+                    class="w-full bg-blue-600 text-white font-bold py-4 px-6 rounded-lg hover:bg-blue-700 transition-all text-lg"
+
+                >
+
+                    Count Me In
+
+                </button>
+
+
+
+                <p class="text-gray-500 text-sm text-center mt-4">
+
+                    We'll email you when we launch. No spam. Unsubscribe anytime.
+
+                </p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <div class="bg-gray-900 text-gray-400 py-8 px-4 text-center">
+
+        <p class="mb-2">Built by a reseller who got tired of losing money on bad stock.</p>
+
+        <p class="text-sm">Liverpool, UK • Launching January 2025</p>
+
+    </div>
+
+
+
+</body>
+
+</html>
+
